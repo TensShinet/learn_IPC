@@ -434,7 +434,15 @@ int main() {
 
 
 
-更完整的代码可以看这里：
+更完整的代码可以看这里：https://github.com/TensShinet/learn_IPC/tree/master/my_code/fifo
+
+
+
+## 0X02 非阻塞
+
+
+
+对于更多 pipe 与 FIFO 的非阻塞的内容，`详看《UNIX 网络编程进程间的通信》4.7`
 
 
 
@@ -452,7 +460,20 @@ int main() {
 
 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
