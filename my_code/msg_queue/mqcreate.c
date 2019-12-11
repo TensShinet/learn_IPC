@@ -12,14 +12,14 @@ int main(int argc, char **argv)
     mqd = mq_open(argv[1], flags, FILE_MODE, NULL);
 
     if(mqd == -1) {
-        perror("mq_open fails");
+        perror("mq_open");
     }
     // 关闭消息队列
     mq_close(mqd);
     // 删除消息队列
     int a = mq_unlink(argv[1]);
     if(a) {
-        perror("mq_unlink fails");
+        perror("mq_unlink");
     }
     return 0;
 }

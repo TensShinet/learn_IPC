@@ -12,6 +12,7 @@
 #include <sys/stat.h> /* for S_xxx file mode constants */
 #include <unistd.h>
 #include <sys/wait.h>
+#include <stdint.h>
 
 #define MAXLINE 4096
 #define FILE_MODE (S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH)
