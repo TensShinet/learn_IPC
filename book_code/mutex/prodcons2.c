@@ -51,6 +51,7 @@ void *
 produce(void *arg)
 {
 	for ( ; ; ) {
+		*((int *) arg) += 1;
 		Pthread_mutex_lock(&shared.mutex);
 		if (shared.nput >= nitems) {
 			Pthread_mutex_unlock(&shared.mutex);
@@ -60,7 +61,6 @@ produce(void *arg)
 		shared.nput++;
 		shared.nval++;
 		Pthread_mutex_unlock(&shared.mutex);
-		*((int *) arg) += 1;
 	}
 }
 
