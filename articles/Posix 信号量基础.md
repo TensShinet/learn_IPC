@@ -293,7 +293,8 @@ consume(void *arg) {
 
 ```c
 #include "unpipc.h"
-#define	LOCK_PATH	"pxsemlock"
+#define LOCK_PATH "/tmp/pxsemlock"
+
 
 sem_t	*locksem;
 int		initflag;
@@ -320,7 +321,11 @@ void my_unlock(int fd)
 
 
 
-头文件的地址：
+头文件的地址：https://github.com/TensShinet/learn_IPC/blob/master/my_code/semaphore/unpipc.h
+
+
+
+
 
 
 
