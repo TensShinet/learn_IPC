@@ -8,7 +8,7 @@
 
 
 
-![](http://nobathroomneeded.files.wordpress.com/2009/08/initial-d.jpg)
+![](https://upload-images.jianshu.io/upload_images/15548795-2033d55efb494897.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
